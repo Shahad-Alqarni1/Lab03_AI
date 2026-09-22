@@ -1,0 +1,52 @@
+
+33 ?- consult([ShahadAlqarni.pl']).
+true.
+
+34 ?- mother(maha, shahad).
+true.
+
+35 ?- mother(faisal, maha).
+false.
+
+36 ?- mother(maha, faisal).
+true.
+
+37 ?- father(mohammed, fahad).
+true.
+
+38 ?- father(layla, mohammed).
+false.
+
+39 ?- father(mohammed, layla).
+true.
+
+40 ?- sister(shahad, layla).
+true ;
+true.
+
+41 ?- sister(layla, fahad).
+true ;
+true.
+
+42 ?- sister(layla, shahad).
+true ;
+true.
+
+43 ?- sister(faisal, layla).
+false.
+
+44 ?- brother(faisal, shahad).
+true ;
+true.
+
+45 ?- brother(faisal, layla).
+true ;
+true.
+
+46 ?- brother(shahad, fahad).
+false.
+
+47 ?- brother(fahad, shahad).
+true ;
+true.
+
